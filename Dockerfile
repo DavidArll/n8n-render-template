@@ -11,7 +11,6 @@ WORKDIR /home/n8n
 
 # Instalar n8n y nodos válidos adicionales
 RUN npm install -g n8n
-RUN npm install -g nodes-openai
 
 # Cambiar al usuario no-root
 USER n8n
